@@ -17,6 +17,7 @@ void mostrarMenuPropietarios(Administracion &adminMenuProp)
     cout << "5. Propietarios con cuarto terminado \n";
     cout << "6. Agregar propietario\n";
     cout << "7. Mostrar un propietario dado su Id\n";
+    cout << "8. PRUEBA\n";
     cout << "-1. Volver\n";
     ;
 
@@ -56,6 +57,13 @@ void mostrarMenuPropietarios(Administracion &adminMenuProp)
              << endl;
         cin >> idPropietario;
         adminMenuProp.imprimirUnPropietario(idPropietario);
+        break;
+    case 8:
+        {int valor = 10;
+        int *p = &valor; // p almacena la dirección de memoria de valor
+        cout << "Dirección de valor: " << p << endl; // Imprime algo como 0x1000
+        cout << "Valor a través de p: " << *p << endl; // Imprime 10
+        }
         break;
 
     default:
