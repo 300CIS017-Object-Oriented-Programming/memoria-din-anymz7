@@ -59,10 +59,11 @@ void mostrarMenuPropietarios(Administracion &adminMenuProp)
         adminMenuProp.imprimirUnPropietario(idPropietario);
         break;
     case 8:
-        int valor = 10;
+        {int valor = 10;
         int *p = &valor; // p almacena la dirección de memoria de valor
         cout << "Dirección de valor: " << p << endl; // Imprime algo como 0x1000
         cout << "Valor a través de p: " << *p << endl; // Imprime 10
+        }
         break;
 
     default:
