@@ -18,16 +18,27 @@ Administracion::Administracion() {
  */
 void Administracion::inicializarDatos() {
     Propietario *persona1 = new Propietario();
+    std::cout << "Propietario creado con exito \n";
     Propietario *persona2 = new Propietario();
+    std::cout << "Propietario creado con exito \n";
     Propietario *persona3 = new Propietario();
+    std::cout << "Propietario creado con exito \n";
     Propietario *persona4 = new Propietario();
+    std::cout << "Propietario creado con exito \n";
     Propiedad *prop1 = new Propiedad();
+    std::cout << "Propiedad creado con exito \n";
     Propiedad *prop2 = new Propiedad();
+    std::cout << "Propiedad creado con exito \n";
     Propiedad *prop3 = new Propiedad();
-    Propiedad *prop4 = new Propiedad(); // Automaticamente al constructor x defecto
+    std::cout << "Propiedad creado con exito \n";
+    Propiedad *prop4 = new Propiedad(); // Automaticamente al constructor x
+    std::cout << "Propiedad creado con exito \n";
     CuartoUtil *cuarto1 = new CuartoUtil();
+    std::cout << "CuartoUtil creado con exito \n";
     CuartoUtil *cuarto2 = new CuartoUtil();
+    std::cout << "CuartoUtil creado con exito \n";
     CuartoUtil *cuarto3 = new CuartoUtil();
+    std::cout << "CuartoUtil creado con exito \n";
 
     //Inicializar cuartos utiles
     vector<CuartoUtil *> cuartosUtiles;
